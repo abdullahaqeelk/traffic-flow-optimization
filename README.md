@@ -38,7 +38,26 @@ c₍ᵢⱼ₎ = Road capacity
 
 
 **Core Features**
+## Building and Running
 
+Requires Visual Studio with the "Desktop development with C++" workload.
+
+1. Clone or download the repository
+2. Open `Project_DSA.sln`
+3. Set configuration to `Release` and platform to `x64`
+4. Build → Build Solution (Ctrl+Shift+B)
+5. Run (Ctrl+F5)
+
+The road network is loaded from `map.txt` at startup. Edit that file to
+simulate a different topology or city layout.
+
+Metrics are written to `metrics.csv` and `performance_metrics.txt` on
+completion.
+
+### Documentation
+
+API documentation is generated with Doxygen. Run `doxygen` from the repo
+root to build it locally — generated output is not committed.
 
 
 **1. Dynamic Graph-Based Road Network**
